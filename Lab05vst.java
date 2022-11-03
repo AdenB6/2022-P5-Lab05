@@ -2,6 +2,8 @@
 // This is the student, starting version of the Lab05 assignment.
 
 
+import jdk.nashorn.internal.ir.WhileNode;
+
 import java.awt.*;
 import java.applet.*;
 
@@ -17,5 +19,31 @@ public class Lab05vst extends Applet
         int x2 = 990;
         int y2 = 640;
         g.drawRect(10,10,width,height);
+
+
+
+
+
+        for (int k = 1; k < 100; k++){
+            g.drawLine(x1, y1, x2, y2);
+            x1 += 10;
+            y2 -= 6 ;
+        }
+
+
+        }
+
+
+
+
+
     }
-}
+
+
+
+
+
+
+
+
+
